@@ -1,0 +1,277 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    max-width: 1024px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.p{
+    padding: 0 10px;
+}
+#close{
+    display: none;
+}
+
+.header{
+display: flex;
+justify-content: space-between;
+align-items: center;
+height: 71px;
+}
+
+header{
+    border-bottom: 1px solid #e5e5e5;
+}
+
+ul{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+a{
+    text-decoration: none;
+    font-family: Inter;
+font-size: 15px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: black;
+}
+
+.header-btn{
+   width: 256px;
+height: 36px;
+padding: 6px 41.05px 6px 41.25px;
+border-radius: 12px;
+background: #FC004A;
+border: none;
+color: white;
+font-family: Inter;
+font-size: 14.75px;
+font-weight: 400;
+line-height: 24px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+}
+.menu{
+    display: none;
+}
+
+@media( max-width:992px ){
+    .logo-img{
+        display: none;
+    }
+    .header-btn{
+width: 200px;
+    }
+    .menu{
+        display: none;
+    }
+    #close{
+        display: none;
+    }
+}
+
+@media( max-width:576px ){
+    ul{
+        display: none;
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 100vh;
+        height: 100vh;
+        background-color: antiquewhite;
+        padding: 50px;
+    }
+    .menu{
+        display: block;
+    }
+    #close{
+        display: block;
+    }
+}
+
+.section-one{
+    padding: 50px 30px;
+}
+
+h1{
+    width: 84px;
+height: 40px;
+font-family: Inter;
+font-size: 32.48px;
+font-weight: 400;
+line-height: 40px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #262626;
+}
+
+.box1{
+    width: 235px;
+height: 391px;
+top: 576px;
+left: 24px;
+border-radius: 15px 0px 0px 0px;
+color: #FFFFFF;
+box-shadow: 0px 4px 6px -4px #0000001A;
+box-shadow: 0px 10px 15px -3px #0000001A;
+}
+
+.rp{
+    width: 102.48px;
+height: 28px;
+font-family: Inter;
+font-size: 17.66px;
+font-weight: 700;
+line-height: 28px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #000000;
+}
+
+.pr{
+    width: 103.33px;
+height: 28px;
+font-family: Inter;
+font-size: 18.28px;
+font-weight: 500;
+line-height: 28px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #FC004A;
+}
+
+.bts{
+    width: 40px;
+height: 40px;
+padding: 6px 0px 0px 0px;
+border-radius: 10px;
+background-color:#FC004A;
+border: none;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.hm{
+    width: 28px;
+height: 28px;
+color: #FFFFFF;
+}
+
+.div{
+display: flex;
+justify-content: end;
+align-items: end;
+}
+
+.box2{
+    width: 235px;
+height: 391px;
+top: 576px;
+left: 24px;
+border-radius: 15px 0px 0px 0px;
+color: #FFFFFF;
+box-shadow: 0px 4px 6px -4px #0000001A;
+box-shadow: 0px 10px 15px -3px #0000001A;
+}
+
+
+
+.box3{
+    width: 235px;
+height: 391px;
+top: 576px;
+left: 24px;
+border-radius: 15px 0px 0px 0px;
+color: #FFFFFF;
+box-shadow: 0px 4px 6px -4px #0000001A;
+box-shadow: 0px 10px 15px -3px #0000001A;
+}
+
+.box4{
+    width: 235px;
+height: 391px;
+top: 576px;
+left: 24px;
+border-radius: 15px 0px 0px 0px;
+color: #FFFFFF;
+box-shadow: 0px 4px 6px -4px #0000001A;
+box-shadow: 0px 10px 15px -3px #0000001A;
+}
+
+.box5{
+    width: 235px;
+height: 391px;
+top: 576px;
+left: 24px;
+border-radius: 15px 0px 0px 0px;
+color: #FFFFFF;
+box-shadow: 0px 4px 6px -4px #0000001A;
+box-shadow: 0px 10px 15px -3px #0000001A;
+}
+
+.box6{
+    width: 235px;
+height: 391px;
+top: 576px;
+left: 24px;
+border-radius: 15px 0px 0px 0px;
+color: #FFFFFF;
+box-shadow: 0px 4px 6px -4px #0000001A;
+box-shadow: 0px 10px 15px -3px #0000001A;
+}
+
+.box7{
+    width: 235px;
+height: 391px;
+top: 576px;
+left: 24px;
+border-radius: 15px 0px 0px 0px;
+color: #FFFFFF;
+box-shadow: 0px 4px 6px -4px #0000001A;
+box-shadow: 0px 10px 15px -3px #0000001A;
+}
+
+.box8{
+    width: 235px;
+height: 391px;
+top: 576px;
+left: 24px;
+border-radius: 15px 0px 0px 0px;
+color: #FFFFFF;
+box-shadow: 0px 4px 6px -4px #0000001A;
+box-shadow: 0px 10px 15px -3px #0000001A;
+}
+
+.section-two{
+    width: 1440px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.boxs{
+    display: flex;
+}
